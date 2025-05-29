@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para Denisse 💜</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #a18cd1, #fbc2eb);
+      color: #fff;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      font-family: 'Dancing Script', cursive;
+    }
+    p, h2 {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    .slider-container {
+      position: relative;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    .mySlides {
+      display: none;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    .mySlides.active {
+      display: block;
+      opacity: 1;
+    }
+    .mySlides img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 1em;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    button {
+      background-color: #fff;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1em;
+      border-radius: 30px;
+      color: #800080;
+      cursor: pointer;
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.3em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+    }
+    button:hover {
+      background-color: #fce4ec;
+      color: #c2185b;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 40px;
+    }
+
+    .piplup-inline {
+      width: 60px;
+      height: auto;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 1s ease-in;
+    }
+    .popup-content {
+      position: relative;
+      background: #fff0f8;
+      color: #4b0082;
+      padding: 40px 30px;
+      border-radius: 24px;
+      width: 90%;
+      max-width: 580px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(255, 182, 193, 0.4);
+      animation: popUp 0.8s ease-out;
+      font-family: 'Dancing Script', cursive;
+      font-size: 1.4em;
+      line-height: 1.7;
+    }
+
+    .popup-content p {
+      margin-bottom: 15px;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 10px; right: 15px;
+      font-size: 24px;
+      cursor: pointer;
+      color: #800080;
+      transition: 0.3s;
+    }
+    .close-btn:hover {
+      color: #ff69b4;
+    }
+
+    .heart {
+      font-size: 2em;
+      color: #ff69b4;
+      animation: beat 1.4s infinite;
+      margin-bottom: 10px;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    @keyframes popUp {
+      0% { transform: scale(0.5); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; } 
+      to { opacity: 1; }
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💜 Para Denisse 💜</h1>
+  <p>
+    Gracias por estar en mi vida, por tu cariño, tu risa, y tu forma tan única de hacer que todo se sienta más ligero.  
+    Esta página es un pequeño regalo para recordarte lo especial que eres, y para desearte un feliz cumpleaños lleno de momentos dulces.
+  </p>
+</header>
+
+<!-- Slider de imágenes -->
+<div class="slider-container">
+  <div class="mySlides active"><img src="den (1).jpg" alt="Imagen 1"></div>
+  <div class="mySlides"><img src="den (10).jpg" alt="Imagen 2"></div>
+  <div class="mySlides"><img src="den (26).jpg" alt="Imagen 3"></div>
+  <div class="mySlides"><img src="den (23).jpg" alt="Imagen 4"></div>
+</div>
+
+<!-- Sección de texto -->
+<section>
+  <h2>🌷 Cosas que Amo de Ti 🌷</h2>
+  <p>
+    Tu dulzura.  
+    Tu risa contagiosa.  
+    Cómo escuchas con el corazón.  
+    Cómo haces que los días difíciles se vuelvan suaves.  
+    <br><br>
+    Me encanta tu forma de ver el mundo, como si detrás de cada gesto hubiera algo más profundo.  
+    Me gusta cómo te expresas, con inteligencia, claridad y a veces con picardía.  
+    <br><br>
+    Admiro que no te rindes fácilmente. Que trabajas mucho. Que estás en constante movimiento aunque eso pese.  
+    Me gustan tus ojos cuando se emocionan, tu voz cuando cambia con una sonrisa.  
+    <br><br>
+    Me inspiras. Por lo que haces. Por cómo eres.  
+    Y por todo lo que aún no sabes que vales.  
+  </p>
+</section>
+
+<!-- Botón y Piplup -->
+<div class="button-container">
+  <button onclick="document.getElementById('popup').style.display='flex'">💌 Un deseo especial</button>
+  <img class="piplup-inline" src="https://www.pngplay.com/wp-content/uploads/11/Piplup-Pokemon-PNG-Images-HD.png" alt="Piplup">
+</div>
+
+<footer>
+  Hecho con mucho cariño solo para ti, Denisse.  
+  <br />✨ Que este nuevo año de vida te traiga paz, alegría y cosas hermosas ✨
+</footer>
+
+<!-- Pop-up de cumpleaños -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" onclick="document.getElementById('popup').style.display='none'">×</span>
+    <div class="heart">❤️</div>
+    <h2>„Du bist ein kleines Wunder in einer großen Welt.“</h2>
+    <p><em>“Eres un pequeño milagro en un mundo grande.”</em></p>
+    <p>Que tu vida se llene de días con sentido,  
+    noches con calma,  
+    y momentos que te hagan sonreír con el alma.  
+    <br><br>
+    ¡Feliz cumpleaños Denisse! 🎂💜  
+    Gracias por existir.</p>
+  </div>
+</div>
+
+<!-- Script del slider -->
+<script>
+let slideIndex = 0;
+const slides = document.getElementsByClassName("mySlides");
+
+function showSlides() {
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; }
+  slides[slideIndex - 1].classList.add("active");
+  setTimeout(showSlides, 5000);
+}
+
+showSlides();
+</script>
+
+</body>
+</html>
